@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "PT Serif", serif;
+}
+
+:root{
+    --lead:#212121;
+    --gold-finger:#F2BD12;
+    --eye-ball:#FFFDF7;
+    --hint-yellow:#FCF1CC;
+    --pure-white:#FFF;
+}
+body{
+    background:var(--eye-ball) ;
+}
+
+/*basique style*/
+a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--lead);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.gap-3{
+    gap: 3rem;
+}
+
+.warp{
+    max-width: 1400px;
+    margin: auto;
+    padding-inline: 1.5rem ;
+}
+/*home style*/
+
+.navabar{
+    min-height: 14vh;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gold-finger);
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "PT Serif", serif;
+}
+
+:root{
+    --lead:#212121;
+    --gold-finger:#F2BD12;
+    --eye-ball:#FFFDF7;
+    --hint-yellow:#FCF1CC;
+    --pure-white:#FFF;
+}
+body{
+    background:var(--eye-ball) ;
+}
+
+/*basique style*/
+a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--lead);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.gap-3{
+    gap: 3rem;
+}
+
+.warp{
+    max-width: 1400px;
+    margin: auto;
+    padding-inline: 1.5rem ;
+}
+/*home style*/
+
+.navabar{
+    min-height: 14vh;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gold-finger);
+}
+h1{min-height: 20vh;
+    color: var(--gold-finger);
+    text-align: center;
+}
+h2{ min-width: 14vh;
+    min-height:8vh;
+    color: var(--lead);
+}
+p{ font-size: x-large;
+    color: var(--gold-finger);
+}
